@@ -1,8 +1,8 @@
 # Topic: /bio/test_tube
 
 # Goal
-uint8 tube_id # (0-2)
-float32 milliliters # (0-10.0)
+uint8 tube_id  # (0-2)
+bool extended  # Do you want it to go fully extended or not
 ---
 # Result
 # Nothing.
