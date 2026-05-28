@@ -1,7 +1,3 @@
 # Topic: /bio/citadel/control
 
-bool[3] distributor_id # (0-2)
-
-float32 move_scythe # -1 <-> 1; Negative for up, positive for down
-
-bool vibration_motor
+bool[3] distributors_ctrl  # (ID 40) Each: 0 stationary, 1 wiggling
